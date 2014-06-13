@@ -1,0 +1,11 @@
+# Site settings
+title: Simplon.co
+email: inbox@simplon.co
+description: "Fabrique de codeurs entrepreneurs à Montreuil #frenchtech"
+baseurl: ""
+url: "http://simplon.co"
+username: "simplonco"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
