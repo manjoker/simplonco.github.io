@@ -4,14 +4,19 @@
   {% include head.html %}
 
     <body>
+    <nav>
+      <ul class="menu">
+        <li><a href="/">Accueil</a></li>
+        <li><a href="/formations_longues">Formations longues</a></li>
+        <li><a href="/formations_courtes">Formations courtes</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/presse">Presse</a></li>
+      </ul>
+    </nav>
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
-    </div>
+    {{ content }}
 
     {% include footer.html %}
 
